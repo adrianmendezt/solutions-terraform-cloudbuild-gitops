@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "beaming-source-282114-tfstate"
     prefix = "env/dev"
   }
 }
